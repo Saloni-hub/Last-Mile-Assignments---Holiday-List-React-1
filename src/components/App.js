@@ -37,7 +37,7 @@ const App = () => {
       <ol>
       {
         
-          filteredCity.map((el,id)=><li key={location+id}>{el.name}</li>)
+          filteredCity.map((el,id)=><li key={location+(id+1)}>{el.name}</li>)
        
       }
       </ol>
